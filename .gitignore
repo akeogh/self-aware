@@ -1,0 +1,7 @@
+**/node_modules
+**/build
+.env
+test/**/test_bundle.js
+**/.DS_Store
+todo.txt
+**/db
