@@ -11,5 +11,17 @@ var entryRouter = exports = module.exports = express.Router();
 entryRouter.use(jsonParser);
 
 entryRouter.get('/', function(req, res) {
-  res.json('hello, world!');
-})
+  res.json('get!');
+});
+
+entryRouter.post('/', function(req, res) {
+  res.json('post!');
+});
+
+entryRouter.put('/', function(req, res) {
+  res.json('put!');
+});
+
+entryRouter.delete('/', function(req, res) {
+  res.json('delete!');
+});
